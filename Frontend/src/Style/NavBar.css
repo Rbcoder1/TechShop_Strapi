@@ -1,0 +1,62 @@
+.loginBtn{
+    font-family: 'Abel', sans-serif;
+    font-size: 13px;
+}
+.loginBtn p{
+    color: white;
+    margin: 0;
+}
+.loginBtn p:hover{
+    color: rgba(230, 208, 111, 0.758);
+}
+
+.hNav{
+    background-color: #4A148C;
+    transition: 1s all ease-in-out;
+}
+.hNav:hover{
+    background-color: rgb(6, 60, 238);
+}
+
+.cartBtn{
+    font-size: 15px;
+}
+.cartBtn p{
+    margin: 0;
+    margin-left: 4px;
+
+}
+.cartBtn p:hover{
+    color: rgba(230, 208, 111, 0.758);
+}
+.cartNo{
+    width: 30px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+
+.ic{
+    font-size: 26px;
+    margin-right: 3px;
+}
+
+.ic:hover{
+    color: rgba(230, 208, 111, 0.758);
+}
+.Wishlist{
+    width: 30px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
