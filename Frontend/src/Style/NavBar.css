@@ -1,35 +1,37 @@
-.loginBtn{
+.loginBtn {
     font-family: 'Abel', sans-serif;
     font-size: 13px;
 }
-.loginBtn p{
+
+.loginBtn p {
     color: white;
     margin: 0;
 }
-.loginBtn p:hover{
+
+.loginBtn p:hover {
     color: rgba(230, 208, 111, 0.758);
 }
 
-.hNav{
-    background-color: #4A148C;
+.hNav {
+    background-color: #652ea7;
     transition: 1s all ease-in-out;
 }
-.hNav:hover{
-    background-color: rgb(6, 60, 238);
-}
 
-.cartBtn{
+.cartBtn {
     font-size: 15px;
 }
-.cartBtn p{
+
+.cartBtn p {
     margin: 0;
     margin-left: 4px;
 
 }
-.cartBtn p:hover{
+
+.cartBtn p:hover {
     color: rgba(230, 208, 111, 0.758);
 }
-.cartNo{
+
+.cartNo {
     width: 30px;
     height: 20px;
     display: flex;
@@ -41,15 +43,16 @@
     color: white;
 }
 
-.ic{
+.ic {
     font-size: 26px;
     margin-right: 3px;
 }
 
-.ic:hover{
+.ic:hover {
     color: rgba(230, 208, 111, 0.758);
 }
-.Wishlist{
+
+.Wishlist {
     width: 30px;
     height: 20px;
     display: flex;
@@ -59,4 +62,24 @@
     border-radius: 5px;
     background-color: red;
     color: white;
+}
+
+.search {
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    height: 4vh;
+    width: 70%;
+    padding: 0px 10px;
+}
+
+.navright{
+    display: flex;
+}
+
+/* Responsive Navbar  */
+
+@media screen and (max-width : 550px){
+
 }
