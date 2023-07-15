@@ -1,24 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
-
-* {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-a {
-    text-decoration: none;
-}
-
 .product-card {
-    width: 200px;
+    /* width: 250px; */
     position: relative;
+    background-color: white;
 }
 
 .badge {
@@ -55,8 +38,6 @@ a {
 
 .product-catagory {
     display: block;
-    /* font-size: 12px;
-    font-weight: 700; */
     text-transform: uppercase;
     color: black;
 }

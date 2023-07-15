@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(246, 245, 248);
+}
+
+.heading-best-selling {
+    color: #1c1525;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
