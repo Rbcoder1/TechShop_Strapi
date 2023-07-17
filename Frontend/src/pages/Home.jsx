@@ -8,13 +8,18 @@ const Home = () => {
     <div style={{ 'marginTop': '70px', 'padding': '10px 20px' }} >
       <div className="best-selling-conn">
         <h3 className='heading-best-selling'>Best Selling</h3>
-        <span className='sub-heading-selling'>Top Selling With 5 Start Product Listed For You <a href="#" className='mx-2' style={{'fontWeight':'bold','color':'black'}}>See All</a></span>
+        <h6 className='sub-heading'>Top Selling With 5 Start Product Listed For You <a href="#" style={{ 'fontWeight': 'bold', 'color': 'black', 'marginBottom': '10px' }}>See All</a></h6>
         <ScrollingProducts />
       </div>
       <div className="product-category my-3">
         <h3 className="heading-product-category mt-4">Product Category</h3>
-        <span className='sub-heading'>Explore Your Favorite Category </span>
+        <h6 className='sub-heading'>Explore Your Favorite Category </h6>
         <ScrollingCategory />
+      </div>
+      <div className="product-category my-3">
+        <h3 className="heading-new-product mt-4">New Product For Sell</h3>
+        <h6 className='sub-heading'>Buy Some Innovative Product From Here</h6>
+        <ScrollingProducts />
       </div>
     </div>
   )

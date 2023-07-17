@@ -6,6 +6,7 @@
     background-color: white;
     display: flex;
     width: 100%;
+    padding: 10px;
 }
 
 .p-thumb img{

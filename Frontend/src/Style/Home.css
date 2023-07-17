@@ -17,3 +17,15 @@ body {
     display: flex;
     align-items: center;
 }
+
+.sub-heading {
+    margin-bottom: 10px;
+}
+
+.heading-new-product {
+    color: #1c1525;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
