@@ -2,6 +2,7 @@ import React from 'react'
 import ScrollingProducts from '../components/ScrollingProducts'
 import '../Style/Home.css'
 import ScrollingCategory from '../components/ScrollingCategory'
+import AllProduct from '../components/AllProduct'
 
 const Home = () => {
   return (
@@ -20,6 +21,11 @@ const Home = () => {
         <h3 className="heading-new-product mt-4">New Product For Sell</h3>
         <h6 className='sub-heading'>Buy Some Innovative Product From Here</h6>
         <ScrollingProducts />
+      </div>
+      <div className="all-product-list">
+        <h3 className="heading-new-product mt-4">All Products</h3>
+        <h6 className='sub-heading'>Shop Products You Want</h6>
+        <AllProduct />
       </div>
     </div>
   )
