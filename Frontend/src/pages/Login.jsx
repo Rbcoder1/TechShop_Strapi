@@ -5,31 +5,31 @@ import 'react-toastify/dist/ReactToastify.css';
 import '../Style/login.css'
 
 
-const successnotify = () => {
-    toast.success('Login Successfully', {
-        position: "bottom-left",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "colored",
-    });
-}
+// const successnotify = () => {
+//     toast.success('Login Successfully', {
+//         position: "bottom-left",
+//         autoClose: 5000,
+//         hideProgressBar: false,
+//         closeOnClick: true,
+//         pauseOnHover: true,
+//         draggable: true,
+//         progress: undefined,
+//         theme: "colored",
+//     });
+// }
 
-const warnnotify = (msg) => {
-    toast.error(msg, {
-        position: "bottom-left",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "colored",
-    });
-}
+// const warnnotify = (msg) => {
+//     toast.error(msg, {
+//         position: "bottom-left",
+//         autoClose: 5000,
+//         hideProgressBar: false,
+//         closeOnClick: true,
+//         pauseOnHover: true,
+//         draggable: true,
+//         progress: undefined,
+//         theme: "colored",
+//     });
+// }
 const Login = () => {
     const Navigate = useNavigate();
     // let history = useHistory ();
@@ -51,13 +51,13 @@ const Login = () => {
         console.log(result)
         if (!result.errors) {
             localStorage.setItem("logToken", result.logtoken);
-            successnotify();
+            // successnotify();
             Navigate("/");
         }
         else {
             result.errors.map((e) => {
                 // alert(e.msg);
-                warnnotify(e.msg)
+                // warnnotify(e.msg)
             })
         }
         if (!result) {
@@ -80,7 +80,7 @@ const Login = () => {
                 <div className="text-center intro">
                     <img src="https://i.imgur.com/uNiv4bD.png" width="160" />
                     <span className="d-block account">Don't have account yet?</span>
-                    <span className="contact">Click Here To <Link to="/signup" className="mail">Create Account</Link> </span>
+                    <span className="contact">Click Here To <Link to="/sign-up" className="mail">Create Account</Link> </span>
                 </div>
                 <div className="mt-4 text-center">
                     <h4 className='mb-4' >Sign In</h4>

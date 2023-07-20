@@ -43,7 +43,7 @@ const SignUp = () => {
         <div className="text-center intro">
           <img src="https://i.imgur.com/uNiv4bD.png" width="160" />
           <span className="d-block account">If You Already Have An Account !</span>
-          <span className="contact">Click Here To <Link to="/login" className="mail">Sign  In</Link> Directly</span>
+          <span className="contact">Click Here To <Link to="/sign-in" className="mail">Sign  In</Link> Directly</span>
         </div>
         <div className="mt-4 text-center">
           <h4 className='mb-4' >Sign Up</h4>
