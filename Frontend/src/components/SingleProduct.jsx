@@ -14,7 +14,7 @@ const SingleProduct = () => {
                 <div className="product-details flex-column">
                     <h4><Link to="" >Laptop</Link></h4>
                     <p>$500 only</p>
-                    <Link to="">Explore More</Link>
+                    <Link to="/single_product">Explore More</Link>
                 </div>
             </div>
         </div>
