@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Style/product_detail.css'
 import { Link } from 'react-router-dom'
+import ReviewContainer from '../components/singleproductpage/ReviewContainer'
 
 const increment = () => {
   console.log("Increment")
@@ -31,7 +32,7 @@ const SingleProductPage = () => {
             <div className="col-xl-6 col-lg-6 col-md-12 col-12">
               <div className="product-info-con">
                 <div className="prod-title">
-                  <h3>Product Title</h3>
+                  <h4 className='heading'>Product Title</h4>
                 </div>
                 <div className="prod-rate-review-count">
                   <p> <b>4.4</b> 21000 rating, 2000 review</p>
@@ -54,7 +55,7 @@ const SingleProductPage = () => {
                     </div>
                     <div className="prod-quant my-3">
                       <label htmlFor="quantity">Quantity :</label>
-                      <input type="text" className='form-control' value='1' onChange={()=>{}} />
+                      <input type="text" className='form-control' value='1' onChange={() => { }} />
                       <div className="btn-group">
                         <div className="plus" onClick={() => increment()}>+</div>
                         <div className="minus" onClick={() => decrement()}>-</div>
@@ -77,8 +78,86 @@ const SingleProductPage = () => {
         </div>
       </section>
       <section className="product-spec">
-        <h1>Specifications</h1>
+        <div className="container">
+          <div className="row spec-con">
+            <div className="col-xl-6 col-lg-6 col-md-12 col-12 prod-scp">
+              <div className="prod-spec-heading">
+                <h3 className='heading'>Description</h3>
+              </div>
+              <div className="content">
+                <div className="row desc-content">
+                  <div className="col-lg-4 col-md 12">
+                    <div className="content-sub-head">
+                      Product Name :
+                    </div>
+                    <div className="content-sub-head">
+                      Model Number :
+                    </div>
+                    <div className="content-sub-head">
+                      Product Category :
+                    </div>
+                    <div className="content-sub-head">
+                      Manufactures :
+                    </div>
+                  </div>
+                  <div className="col-lg-8 col-md 12">
+                    <div className="content-sub-head">
+                      Product Title
+                    </div>
+                    <div className="content-sub-head">
+                      Product Number
+                    </div>
+                    <div className="content-sub-head">
+                      Product Category
+                    </div>
+                    <div className="content-sub-head">
+                      Product Manufacture
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-6 col-lg-6 col-md-12 col-12 prod-scp">
+              <div className="prod-spec-heading">
+                <h3 className='heading'>Specification</h3>
+              </div>
+              <div className="content">
+                <div className="row desc-content">
+                  <div className="col-lg-4 col-md 12">
+                    <div className="content-sub-head">
+                      Product Name :
+                    </div>
+                    <div className="content-sub-head">
+                      Model Number :
+                    </div>
+                    <div className="content-sub-head">
+                      Product Category :
+                    </div>
+                    <div className="content-sub-head">
+                      Manufactures :
+                    </div>
+                  </div>
+                  <div className="col-lg-8 col-md 12">
+                    <div className="content-sub-head">
+                      Product Title
+                    </div>
+                    <div className="content-sub-head">
+                      Product Number
+                    </div>
+                    <div className="content-sub-head">
+                      Product Category
+                    </div>
+                    <div className="content-sub-head">
+                      Product Manufacture
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+      <ReviewContainer />
     </div>
   )
 }

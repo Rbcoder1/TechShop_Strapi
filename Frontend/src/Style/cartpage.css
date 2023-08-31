@@ -1,0 +1,131 @@
+h5 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.cart-section {
+    padding: 4rem 1rem;
+}
+
+.cart-heading {
+    padding: 0.5rem;
+}
+
+.card {
+    border-radius: 0;
+    margin: 0rem 0.3rem;
+    display: flex;
+    padding: 1rem 0.5rem;
+    /* justify-content: center; */
+    border: 1px solid #ddd7d7;
+    border-radius: 0.5rem;
+}
+.item-sumary{
+    height: 60vh;
+}
+.cart-heading-con {
+    padding: 0.5rem;
+}
+
+.cart-bill-heading {}
+
+.cart-item-count p {
+    color: purple;
+}
+
+.cart-amount-count p {
+    color: purple;
+}
+
+label {
+    color: black;
+    font-weight: bold;
+}
+
+.bill-shiping {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+li label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.bill-shiping li input {
+    width: 100%;
+    padding: 0.28rem;
+    border: 0.5px solid rgb(188, 185, 185);
+    border-radius: 5px;
+}
+
+.bill-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.bill-btn p {
+    color: red;
+}
+
+.total-amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border: 1px solid gray;
+}
+
+.total-amount p {
+    color: red;
+}
+
+/* Cart Item Styling */
+.cart-item {
+    padding: 1.5rem 1rem;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+}
+
+.cart-item ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.item-main-con {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.item-img {
+    width: 20%;
+}
+
+.item-img img {
+    width: 100%;
+}
+
+.item-count-con {
+    width: 20%;
+}
+
+.item-count {
+    display: flex;
+}
+
+.item-price {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

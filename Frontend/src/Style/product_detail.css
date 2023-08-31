@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+p {
+    font-family: sans-serif;
+    color: #999;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: black;
+}
+
+.product_detail_header {
+    padding: 1rem 0rem;
+}   
+
 .product_detail {
     margin-top: 4rem;
 }
@@ -111,4 +130,52 @@
     background-color: rgb(14, 13, 13);
     text-align: center;
     color: white;
+}
+
+.spec-con {
+    border: 1px solid #f0f0f0;
+}
+
+.product-spec {
+    padding: 1rem 0rem;
+}
+
+.prod-scp {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f0f0f0;
+}
+
+.prod-spec-heading {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.desc-content {
+    padding: 2rem;
+}
+
+.content-sub-head {
+    padding: 1rem;
+}
+
+.prod-review-sec {
+    margin: 1rem;
+}
+
+.review-heading {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1rem 2rem;
+}
+
+/* review component styling  */
+
+.review-sumary{
+    padding: 1rem;
 }

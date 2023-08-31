@@ -1,3 +1,4 @@
+
 .product-card {
     /* width: 250px; */
     position: relative;
@@ -72,6 +73,10 @@
 .product-bottom-details div {
     float: left;
     width: 50%;
+}
+
+.product-info-con {
+    padding: 2rem 1rem;
 }
 
 .product-price {
