@@ -1,8 +1,8 @@
 import React from 'react'
-import ScrollingProducts from '../components/ScrollingProducts'
-import '../Style/Home.css'
-import ScrollingCategory from '../components/ScrollingCategory'
-import AllProduct from '../components/AllProduct'
+import ScrollingProducts from '../components/product/ScrollingProducts'
+import '../assets/Style/Home.css'
+import ScrollingCategory from '../components/product/ScrollingCategory'
+import AllProduct from '../components/product/AllProduct'
 
 const Home = () => {
   return (

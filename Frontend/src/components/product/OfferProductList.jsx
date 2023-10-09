@@ -1,6 +1,4 @@
 import React, { useContext } from 'react'
-// import { useEffect } from 'react'
-import TempProduct from './TempProduct'
 
 const OfferProductList = (props) => {
     return (

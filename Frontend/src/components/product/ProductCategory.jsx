@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../Style/ProductCategory.css'
+import '../../assets/Style/ProductCategory.css'
 
 const ProductCategory = () => {
     return (

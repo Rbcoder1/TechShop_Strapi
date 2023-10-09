@@ -1,8 +1,8 @@
 
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../Style/SingleProduct.css'
-import '../Style/ScrollingProduct.css'
+import '../../assets/Style/SingleProduct.css'
+import '../../assets/Style/ScrollingProduct.css'
 
 const SingleProduct = () => {
     return (

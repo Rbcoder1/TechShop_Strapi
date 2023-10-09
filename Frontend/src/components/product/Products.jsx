@@ -1,6 +1,5 @@
 import React, { useEffect, useContext } from 'react'
 import '../App.css'
-import TempProduct from './TempProduct'
 
 const Products = () => {
     return (

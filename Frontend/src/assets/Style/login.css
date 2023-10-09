@@ -1,5 +1,7 @@
-.bd{
-
+input{
+    width: 100%;
+}
+.bd {
     background-color: #eee;
     display: flex;
     justify-content: center;
@@ -8,28 +10,28 @@
 }
 
 
-.card1{
+.card1 {
 
     width: 400px;
     padding: 20px;
-    border:none;
+    border: none;
 }
 
 
 
-.account{
+.account {
 
-        font-weight: 500;
+    font-weight: 500;
     font-size: 17px;
 }
 
-.contact{
+.contact {
 
-        font-size: 13px;
+    font-size: 13px;
 }
 
-.form-control{
-   text-indent: 14px;
+.form-control {
+    text-indent: 14px;
 }
 
 .form-control:focus {
@@ -40,22 +42,21 @@
     box-shadow: none;
 }
 
-.inputbox{
-
+.inputbox {
     margin-bottom: 10px;
     position: relative;
 }
 
-.inputbox i{
+.inputbox i {
 
-        position: absolute;
+    position: absolute;
     left: 8px;
     top: 12px;
     color: #dadada;
 }
 
 
-.form-check-label{
+.form-check-label {
 
     font-size: 13px;
 }
@@ -65,27 +66,27 @@
     height: 15px;
     margin-top: 5px;
 
-    }
+}
 
-   .forgot {
+.forgot {
     font-size: 14px;
     text-decoration: none;
     color: #4A148C;
 }
 
-.mail{
+.mail {
 
     color: #4a148c;
     text-decoration: none;
 }
 
 
-    .form-check{
+.form-check {
 
     cursor: pointer;
-    }
+}
 
-    .btn-primary {
+.btn-primary {
     color: #fff;
     background-color: #4A148C;
     border-color: #4A148C;

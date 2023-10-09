@@ -1,6 +1,5 @@
 import React from 'react'
-import SingleProduct from './SingleProduct'
-import AllProducts from '../Style/AllProducts.css'
+import SingleProduct from '../product/SingleProduct'
 
 const AllProduct = () => {
     return (

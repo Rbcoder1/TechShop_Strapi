@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Style/product_detail.css'
+import '../assets/Style/product_detail.css'
 import { Link } from 'react-router-dom'
 import ReviewContainer from '../components/singleproductpage/ReviewContainer'
 
@@ -55,7 +55,7 @@ const SingleProductPage = () => {
                     </div>
                     <div className="prod-quant my-3">
                       <label htmlFor="quantity">Quantity :</label>
-                      <input type="text" className='form-control' value='1' onChange={() => { }} />
+                      <input type="text" className='form-control quantity-box' value='1' onChange={() => { }} />
                       <div className="btn-group">
                         <div className="plus" onClick={() => increment()}>+</div>
                         <div className="minus" onClick={() => decrement()}>-</div>
@@ -68,7 +68,7 @@ const SingleProductPage = () => {
                       <a href="/product/wishlist" className='mx-1'>Add Wishlist</a>
                     </div>
                     <div className="buy-btn my-3 mx-1">
-                      <a href="/product/buy" className=''>Buy Now</a>
+                      <a href="/single_product/buy" className=''>Buy Now</a>
                     </div>
                   </div>
                 </form>

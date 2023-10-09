@@ -54,7 +54,7 @@ p {
     flex-direction: column;
 }
 
-.form-control {
+.quantity-box {
     padding: 9px 0px;
     width: 7vw;
     text-align: center;

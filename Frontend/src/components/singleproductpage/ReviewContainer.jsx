@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../Style/product_detail.css'
+import '../../assets/Style/product_detail.css'
 
 const ReviewContainer = () => {
     return (

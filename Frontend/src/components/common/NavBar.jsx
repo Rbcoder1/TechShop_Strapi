@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from 'react'
-import '../App.css'
-import '../Style/NavBar.css'
+import '../../assets/Style/NavBar.css'
+import '../../App.css'
 import { Link } from "react-router-dom";
 import Logout from './Logout';
 import LoginBtn from './LoginBtn';

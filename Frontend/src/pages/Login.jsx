@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
-import '../Style/login.css'
+import '../assets/Style/login.css'
 
 
 // const successnotify = () => {

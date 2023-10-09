@@ -1,0 +1,70 @@
+/* Shipping Address Pages Styling  */
+.checkoutcontainer {
+    margin-top: 4rem;
+    padding: 2rem 1rem;
+}
+
+.shiping-form {
+    padding: 2rem;
+}
+
+.paymentoptioncon {
+    display: flex;
+    flex-direction: column;
+}
+
+.op-upi {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid;
+}
+
+.op-upi-main {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: left;
+    align-items: center;
+}
+
+.op-upi-main input {
+    width: 5%;
+}
+
+.op-upi-sub {
+    padding-left: 7.5rem;
+    display: none;
+}
+
+.op-netbank {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid;
+}
+.op-net-main{
+    display: flex;
+    align-items: center;
+    flex-flow: row-reverse;
+    justify-content: left;
+}
+.op-net-main input{
+    width: 5%;
+}
+.op-net-sub{
+    padding-left: 5rem;
+    display: none;
+}
+
+.op-cash{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid;
+}
+.op-cash-main{
+    display: flex;
+    align-items: center;
+    flex-flow: row-reverse;
+    justify-content: left;
+}
+.op-cash-main input{
+    width: 5%;
+}
